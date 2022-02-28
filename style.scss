@@ -53,6 +53,9 @@ select {
 }
 
 body {
+	width: 100%;
+	min-height: 100vh;
+
 	background-color: #ffeedf;
 
 	font-family: "Space Grotesk", sans-serif;
@@ -82,17 +85,17 @@ header {
 
 	max-width: 1200px;
 
-	margin: 30px auto;
+	margin: 30px auto 90px;
 
 	.card {
 		position: relative;
 
 		width: 400px;
-		height: 250px;
+		min-height: 250px;
 		background-color: #145434;
 
 		margin: 30px;
-		padding: 40px;
+		padding: 40px 40px 60px;
 
 		color: #ffeedf;
 
@@ -122,16 +125,16 @@ header {
 			border-bottom: 1px solid #ffeedf;
 
 			font-size: 36px;
-			font-weight: 500;
+			font-weight: 400;
 		}
 		p.sub {
-			padding-top: 10px;
+			margin-top: 10px;
 
 			font-size: 18px;
 			font-weight: 400;
 		}
 		p.text {
-			padding-top: 10px;
+			margin-top: 2px;
 
 			font-size: 18px;
 			font-weight: 700;

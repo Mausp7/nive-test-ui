@@ -61,7 +61,7 @@ function loadEvent() {
                 <div class="number" >${i+1}</div>
                 <h2>${beers[i].title}</h2>
                 <p class="sub" >${beers[i].sub}</p>
-                <h3 class="text" >${beers[i].text}</h3>
+                <p class="text" >${beers[i].text}</p>
                 <button>details</button>
             </div>
         `);
