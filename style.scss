@@ -55,6 +55,7 @@ select {
 body {
 	background-color: #ffeedf;
 
+	font-family: "Space Grotesk", sans-serif;
 	color: #145434;
 }
 
@@ -77,8 +78,11 @@ header {
 #root {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 
 	max-width: 1200px;
+
+	margin: 30px auto;
 
 	.card {
 		position: relative;
@@ -87,11 +91,12 @@ header {
 		height: 250px;
 		background-color: #145434;
 
-		margin: 60px;
+		margin: 30px;
+		padding: 40px;
 
 		color: #ffeedf;
 
-		i {
+		.number {
 			position: absolute;
 			top: -20px;
 			left: -20px;
@@ -106,17 +111,52 @@ header {
 			border-radius: 50%;
 			background-color: #ffeedf;
 
+			font-size: 24px;
 			color: #145434;
 		}
 
 		h2 {
+			min-height: 90px;
+
+			padding-bottom: 10px;
+			border-bottom: 1px solid #ffeedf;
+
+			font-size: 36px;
+			font-weight: 500;
 		}
-		p {
+		p.sub {
+			padding-top: 10px;
+
+			font-size: 18px;
+			font-weight: 400;
 		}
-		h3 {
+		p.text {
+			padding-top: 10px;
+
+			font-size: 18px;
+			font-weight: 700;
 		}
 
 		button {
+			position: absolute;
+			right: -12px;
+			bottom: -12px;
+
+			width: 200px;
+			height: 50px;
+
+			border: 2px solid #145434;
+			background-color: #ffeedf;
+
+			font-size: 14px;
+			color: #145434;
+
+			&:hover {
+				border: 2px solid #ffeedf;
+				background-color: #145434;
+
+				color: #ffeedf;
+			}
 		}
 	}
 }

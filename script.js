@@ -58,10 +58,10 @@ function loadEvent() {
     for (let i = 0; i < beers.length; i++) {
         rootElement.insertAdjacentHTML("beforeend", `
             <div class="card">
-                <i>${i+1}</i>
+                <div class="number" >${i+1}</div>
                 <h2>${beers[i].title}</h2>
-                <p>${beers[i].sub}</p>
-                <h3>${beers[i].text}</h3>
+                <p class="sub" >${beers[i].sub}</p>
+                <h3 class="text" >${beers[i].text}</h3>
                 <button>details</button>
             </div>
         `);
