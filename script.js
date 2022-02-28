@@ -62,7 +62,7 @@ function loadEvent() {
                 <h2>${beers[i].title}</h2>
                 <p class="sub" >${beers[i].sub}</p>
                 <p class="text" >${beers[i].text}</p>
-                <button>details</button>
+                <button>details<span class="material-icons">arrow_forward</span></button>
             </div>
         `);
     }

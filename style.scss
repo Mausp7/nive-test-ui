@@ -76,6 +76,10 @@ header {
 	h1 {
 		font-size: 36px;
 	}
+
+	.material-icons {
+		font-size: 36px;
+	}
 }
 
 #root {
@@ -159,6 +163,16 @@ header {
 				background-color: #145434;
 
 				color: #ffeedf;
+			}
+
+			span {
+				position: absolute;
+				right: 5px;
+				top: 50%;
+
+				font-size: 36px;
+
+				transform: translate(0, -50%);
 			}
 		}
 	}
