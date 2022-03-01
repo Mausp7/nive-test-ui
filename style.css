@@ -58,6 +58,10 @@ body {
 }
 
 header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
   width: 100%;
   height: 60px;
   display: -webkit-box;
@@ -71,6 +75,7 @@ header {
           align-items: center;
   padding: 0px 10px;
   border-bottom: 1px solid #145434;
+  background-color: #ffeedf;
 }
 
 header h1 {
@@ -91,7 +96,7 @@ header .material-icons {
       -ms-flex-pack: center;
           justify-content: center;
   max-width: 1200px;
-  margin: 30px auto 90px;
+  margin: 90px auto 90px;
 }
 
 #root .card {
